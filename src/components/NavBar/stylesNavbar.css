@@ -1,0 +1,45 @@
+header{
+    width: 100%;        
+}
+
+header nav{
+    width: 90%; 
+    height: 100%;
+    margin:0;
+    position: fixed;
+    background-color: rgba(234, 238, 238, 0.692);
+}
+
+.menu{
+    background-color: rgba(234, 238, 238, 0.692);
+}
+
+header nav ul {
+    padding: 40px 20px;   
+    overflow: hidden;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 15px auto;
+    width: 90%; 
+    /* float: left; */
+}
+
+header nav ul li:hover {
+    border: 2px solid white;
+    border-radius: 5px; 
+}
+
+header nav ul li a {
+    color: fff;
+    padding: 20px;
+    display: block;
+    text-decotation: none;
+}
+
+header nav ul li {
+    float: left;
+}
+
+@media screen and ()
