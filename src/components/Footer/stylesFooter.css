@@ -1,0 +1,13 @@
+.text{
+    padding: 10px;
+}
+
+.container{
+    margin: 20px;
+    text-decoration: none;
+}
+
+.container ul li{
+    margin: 5px;
+    list-style: none;
+}

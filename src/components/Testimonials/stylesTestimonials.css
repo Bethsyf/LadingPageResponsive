@@ -1,0 +1,24 @@
+.testimonials{
+    text-align: center;
+    padding: 5%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.texts{
+    margin-bottom: 20px;    
+}
+
+.contai-testi{    
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.img-testimonial{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.name{
+    margin-bottom: 40px;    
+}

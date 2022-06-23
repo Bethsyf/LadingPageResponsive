@@ -1,14 +1,14 @@
 import React from 'react'
 import ButtonContact from '../ButtonContact/ButtonContanct'
-
+import './stylesContact.css'
 
 const Contact = () => {
   return (
-    <div>
-      <h2>be a part of the next big thing</h2>
-      <p>we work with brans, Startups, </p>
+    <section className='contactus'>
+      <h2>Be a part of the next big thing</h2>
+      <p className='text'>we work with brans, Startups, to SMEs. Colaborate for more impact and growt</p>
       <ButtonContact />
-    </div>
+    </section>
   )
 }
 

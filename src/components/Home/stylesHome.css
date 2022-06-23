@@ -1,0 +1,42 @@
+
+
+.home{
+    padding: 5%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img-home{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    text-align: center;
+    width: 100vw;
+}
+
+.phrase{
+    color: #B4AFAD;
+    font-size: small;    
+}
+
+.social-media{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+}

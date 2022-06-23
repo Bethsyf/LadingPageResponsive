@@ -1,13 +1,13 @@
 import React from 'react'
-
+import './stylesFooter.css'
 const Footer = () => {
   return (
     <footer>
       <div>
         <h3>Digital Agency</h3>
-        <p>Building Digital products, Brands & Experience</p>
+        <p className='text'>Building Digital products, Brands & Experience</p>
       </div>
-      <div>
+      <div className='container'>
       <h3>Resources</h3>
       <ul>
         <li>Guides</li>
@@ -16,7 +16,7 @@ const Footer = () => {
         <li>Glossery</li>
       </ul>
       </div>
-      <div>
+      <div className='container'>
       <h3>Company</h3>
       <ul>
         <li>About Us</li>
@@ -25,7 +25,7 @@ const Footer = () => {
         <li>Contact Us</li>
       </ul>
       </div>
-      <div>
+      <div className='container'>
       <h3>Social Media</h3>
       <ul>
         <li>LinkedIn</li>

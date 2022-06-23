@@ -1,0 +1,22 @@
+.about{
+    padding: 5%;
+    margin-top: 20%;
+    margin-bottom: 20%;    
+}
+
+.container{
+    text-align: center;
+}
+
+.section1{
+    padding: 20px;
+}
+
+.img-about{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 80vw;
+    
+}
+
