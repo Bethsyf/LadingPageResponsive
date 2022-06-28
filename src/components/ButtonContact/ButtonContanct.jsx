@@ -3,7 +3,7 @@ import './stylesButton.css'
 
 const ButtonContact = () => {
   return (
-    <button>CONTACT US</button>
+    <a href="#contact"><button>CONTACT US</button></a>
   )
 }
 

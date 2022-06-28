@@ -17,10 +17,10 @@ export const Home = () => {
       </div>
       <p className='phrase'>Trusted by 4,000+ Companies</p>
       <div className='social-media'>
-        <i class="fab fa-spotify">Spotify</i>
-        <i class="fab fa-slack">slack</i>
-        <i class="fab fa-dropbox">Dropbox</i>
-        <i class="fab">zoom</i>
+        <i className="fab fa-spotify">Spotify</i>
+        <i className="fab fa-slack">slack</i>
+        <i className="fab fa-dropbox">Dropbox</i>
+        <i className="fab">zoom</i>
       </div>
     </section>
   )

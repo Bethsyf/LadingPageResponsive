@@ -21,6 +21,11 @@
     width: 80vw;    
 }
 
+.section1-1 .arrow{   
+    display: none;
+    
+}
+
 
 @media (min-width: 768px) {
     .section1{
@@ -65,5 +70,11 @@
     }
     .img-about{
         width: 100%;    
+    }
+    .fa-arrow-down{
+        color: white;
+    }
+    .fa-arrow-right{   
+        color: black;
     }
 }
