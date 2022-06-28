@@ -11,3 +11,10 @@
     margin: 5px;
     list-style: none;
 }
+
+@media (min-width: 768px) {
+    cont-tot{
+        display: flex;
+        justify-content: space-between;
+    }
+}

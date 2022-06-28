@@ -1,17 +1,16 @@
 .testimonials{
     text-align: center;
     padding: 5%;
-    margin-top: 20%;
-    margin-bottom: 20%;
 }
 
 .texts{
-    margin-bottom: 20px;    
+    margin-bottom: 18px;  
+      
 }
 
 .contai-testi{    
-    margin-top: 20%;
-    margin-bottom: 20%;
+    margin-top: 15%;
+    
 }
 
 .img-testimonial{
@@ -20,5 +19,19 @@
 }
 
 .name{
-    margin-bottom: 40px;    
+    margin-bottom: 40px; 
+    font-weight: bold;   
+}
+
+@media (min-width: 768px) {
+    .cont-tot{
+        display: flex;
+        justify-content: space-between;
+    }
+    .titleT{
+        font-size: 45px;
+        padding-left: 20%;
+        padding-right: 20%;
+        line-height: 95%;
+    }
 }

@@ -2,8 +2,8 @@
 
 .home{
     padding: 5%;
-    margin-top: 20%;
-    margin-bottom: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .title{
@@ -39,4 +39,28 @@
     display: flex;
     justify-content: space-around;
     font-weight: bolder;
+}
+
+@media (min-width: 768px) {
+    .cont-home{
+        display: flex;
+        align-items: center;
+    }
+    .img-home{
+        width: 100%;       
+        padding-right: 40px;
+    }
+    .cont2{
+        text-align: left;
+        padding-left: 50px;        
+    }
+    .title{
+        text-align: left;
+        font-size: 45px;        
+    }
+    .social-media{
+        font-size: 25px;
+        color: #424141;
+        
+    }
 }

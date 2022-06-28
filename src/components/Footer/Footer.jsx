@@ -3,7 +3,8 @@ import './stylesFooter.css'
 const Footer = () => {
   return (
     <footer>
-      <div>
+      <div className='cont-tot'>
+      <div className='container'>
         <h3>Digital Agency</h3>
         <p className='text'>Building Digital products, Brands & Experience</p>
       </div>
@@ -34,7 +35,8 @@ const Footer = () => {
         <li>Twitter</li>
       </ul>
       </div>
-      <span>® Matheus. Todos los direitos reservados</span>
+      </div>
+      <p>® Matheus. Todos los direitos reservados</p>
     </footer>
   )
 }
