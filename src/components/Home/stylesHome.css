@@ -2,8 +2,7 @@
 
 .home{
     padding: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    
 }
 
 .title{
@@ -48,19 +47,19 @@
     }
     .img-home{
         width: 100%;       
-        padding-right: 40px;
-    }
+        margin-right: 20%;        
+    }    
     .cont2{
-        text-align: left;
-        padding-left: 50px;        
+        text-align: left;        
+        margin-left: 10%;
+        margin-right: 5%;        
     }
     .title{
         text-align: left;
-        font-size: 45px;        
+        font-size: 45px;               
     }
     .social-media{
         font-size: 25px;
-        color: #424141;
-        
+        color: #424141;        
     }
 }
