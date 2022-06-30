@@ -48,18 +48,26 @@
         align-items: center;  
         justify-content: space-between;     
     }
-    .logo{  
-        
+    .logo{          
         text-transform:uppercase;
     }
     .bt-menu{
         display: none;
     }
-    .menu{         
+    .cont-menu{
+        display: flex;
+    }
+    .menu-desk{  
         display: flex;    
         justify-content: end;   
         flex-direction: row;
         background-color: white;  
+    }
+    .menu-hidden{
+        display: none
+    }
+    .menu{
+        display: none
     }
     .link{
         color: black;

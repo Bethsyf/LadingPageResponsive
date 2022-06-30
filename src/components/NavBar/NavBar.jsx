@@ -17,7 +17,8 @@ const NavBar = () => {
             </button>
         </div>
         <div className='cont-menu'>
-          <ul className={
+          <div >
+            <ul className={ 
           toggle ? "menu" : "menu-hidden"
         }>
             <li className='item'><a className='link' href='#home'>home</a></li>
@@ -25,6 +26,15 @@ const NavBar = () => {
             <li className='item'><a className='link' href='#testimonials'>testimonials</a></li>
             <li className='item'><a className='link' href='#contact'>contact</a></li>
           </ul>
+          </div>
+          <div >
+            <ul className="menu-desk">
+            <li className='item'><a className='link' href='#home'>home</a></li>
+            <li className='item'><a className='link' href='#about'>about</a></li>
+            <li className='item'><a className='link' href='#testimonials'>testimonials</a></li>
+            <li className='item'><a className='link' href='#contact'>contact</a></li>
+          </ul>
+          </div>
         </div>
       </nav>
     </header>
