@@ -22,8 +22,11 @@
 }
 
 .section1-1 .arrow{   
-    display: none;
-    
+    display: none;    
+}
+
+.section2-1 .arrow{   
+    display: none;    
 }
 
 
@@ -71,10 +74,16 @@
     .img-about{
         width: 100%;    
     }
-    .fa-arrow-down{
-        color: white;
+    .section1-1 .arrow{   
+        display: block;    
     }
-    .fa-arrow-right{   
-        color: black;
+    .section1-1 .down{   
+        display: none;    
+    }
+    .section2-1 .arrow{   
+        display: block;    
+    }
+    .section2-1 .down{   
+        display: none;    
     }
 }

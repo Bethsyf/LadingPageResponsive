@@ -2,9 +2,10 @@
     padding: 10px;
 }
 
-.container{
+.container{    
     margin: 20px;
     text-decoration: none;
+    font-size: 15px;
 }
 
 .container ul li{

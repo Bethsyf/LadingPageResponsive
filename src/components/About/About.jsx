@@ -8,7 +8,7 @@ const About = () => {
       <div className='section1-1'>
       <h2 >Branding & Design System</h2>
       <p className='text'>Commonly Used in the Graphic, print & Publishing Industris for Previewing Visual Layout And Mockups</p>
-      <i className="fas fa-arrow-down"></i>
+      <i className="down fas fa-arrow-down"></i>
       <i className="arrow fas fa-arrow-right"></i>
       </div>
       <div className='section1-2'>
@@ -19,7 +19,7 @@ const About = () => {
       <div className='section2-1'>
       <h2>Custome & Plugin Development</h2>
       <p className='text'>Commonly Used In The Graphic, Print & Publishing Industris for Previewing Visual Layout And Mockups</p>
-      <i className="fas fa-arrow-down"></i>
+      <i className="down fas fa-arrow-down"></i>
       <i className="arrow fas fa-arrow-right "></i>
       </div>
       <div className='section2-2'>

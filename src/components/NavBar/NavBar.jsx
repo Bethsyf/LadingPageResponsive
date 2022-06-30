@@ -1,40 +1,32 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import './stylesNavbar.css';
 
 const NavBar = () => {
-  const[menuToggle, setMenuToggle] = useState(false);
-  const refNav = useRef();
-  const refMenu = useRef();
-  const refBtnToggle = useRef();
+    const [toggle, setToggle] = useState(false)
 
-  const handleToggle = ()=>{
-      if(menuToggle){
-          setMenuToggle(false)
-          refMenu.current.style.left = '-100%'          
-      }else{
-          setMenuToggle(true)
-          const calculate = refNav.current.offsetLeft + refNav.current.clientHeight -1;
-          refMenu.current.style.left = calculate+'px'          
-      }
-  }
+    const handleToggle = () => {
+      setToggle(!toggle);
+    }
   return (
-    <header>
-      <div ref={refNav} className='cont-menu'>
-        <div className='menu'>
+    <header className='cont-navbar'>
+      <nav className='container'>
+        <div className='navb'>
           <p className='logo'>Digital Agency</p>
-          <button onClick={handleToggle} ref={refBtnToggle} className='bt-menu' type='button'>
+          <button onClick={handleToggle} className='bt-menu' type='button'>
             <i className="fas fa-bars"></i>
             </button>
         </div>
-        <nav>
-          <ul ref={refMenu}>
-            <li><a href='#home'>home</a></li>
-            <li><a href='#about'>about</a></li>
-            <li><a href='#testimonials'>testimonials</a></li>
-            <li><a href='#contact'>contact</a></li>
+        <div className='cont-menu'>
+          <ul className={
+          toggle ? "menu" : "menu-hidden"
+        }>
+            <li className='item'><a className='link' href='#home'>home</a></li>
+            <li className='item'><a className='link' href='#about'>about</a></li>
+            <li className='item'><a className='link' href='#testimonials'>testimonials</a></li>
+            <li className='item'><a className='link' href='#contact'>contact</a></li>
           </ul>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
   )
 }
