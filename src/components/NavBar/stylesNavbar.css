@@ -26,19 +26,23 @@
     
 }
 .menu-hidden{
-    top:-100%;
-    opacity: 0.9;
+    top:-100%;    
     display: flex;
-    position: absolute;    
-    right: 0;
+    position: absolute; 
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: #5A87C2; 
+    background-color: #5A87C2;     
+}
+.menu-desk{
+    display: none;
 }
 .link{
     text-decoration: none;    
     color: white;
+}
+.logo{
+    margin-left: 20px;    
 }
 
 
