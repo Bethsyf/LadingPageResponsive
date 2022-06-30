@@ -4,7 +4,7 @@
 .navb{
     display: flex;
     justify-content: space-between;
-    position: relative;    
+    position: relative;        
 }
 .bt-menu{
     background-color: white;
@@ -42,7 +42,8 @@
     color: white;
 }
 .logo{
-    margin-left: 20px;    
+    margin-left: 40px;
+    margin-top: 10px;     
 }
 
 
