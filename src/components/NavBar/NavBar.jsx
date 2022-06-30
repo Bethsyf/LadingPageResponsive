@@ -21,10 +21,10 @@ const NavBar = () => {
             <ul className={ 
           toggle ? "menu" : "menu-hidden"
         }>
-            <li className='item'><a className='link' href='#home'>home</a></li>
-            <li className='item'><a className='link' href='#about'>about</a></li>
-            <li className='item'><a className='link' href='#testimonials'>testimonials</a></li>
-            <li className='item'><a className='link' href='#contact'>contact</a></li>
+            <li className='item' onClick={handleToggle}><a className='link' href='#home'>home</a></li>
+            <li className='item' onClick={handleToggle}><a className='link' href='#about'>about</a></li>
+            <li className='item'onClick={handleToggle}><a className='link' href='#testimonials'>testimonials</a></li>
+            <li className='item' onClick={handleToggle}><a className='link' href='#contact'>contact</a></li>
           </ul>
           </div>
           <div >
